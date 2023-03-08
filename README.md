@@ -6,5 +6,6 @@ By using python language this is a music player which helps the user to easily f
 2. Sad
 3. Neutral
 4. Angry
+
 Songs based on these moods are arranged in lists respective to their mood.
 Based on the output of the model a specific list of songs is chosen from all the list of songs.
