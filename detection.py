@@ -36,7 +36,6 @@ while len(faces)==0:
     ret,src = cam.read()
     gray = cv2.cvtColor(src, cv2.COLOR_BGR2GRAY)
     faces = face_classifier.detectMultiScale(gray, 1.3, 4)
-
 cam.release()
 
 
